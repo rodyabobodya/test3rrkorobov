@@ -1,0 +1,9 @@
+[package]
+name = "hash_finder"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"          # Для вычисления SHA-256 хэшей
+clap = { version = "4.0", features = ["derive"] } # Для парсинга аргументов командной строки
+num_cpus = "1.13"      # Для получения количества ядер процессора
